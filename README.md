@@ -4,7 +4,7 @@ A Claude Code skill for rebuilding public websites as clean, maintainable
 projects with disciplined visual and interaction QA.
 
 Ported from the original Codex skill with minimal changes: the skill logic in
-`clone-any-website/SKILL.md` is unchanged; only packaging and install
+`website-cloning-cc/SKILL.md` is unchanged; only packaging and install
 instructions were adapted for Claude Code.
 
 It covers:
@@ -32,18 +32,18 @@ Clone the repository and link the skill into your Claude Code skills directory:
 ```bash
 git clone https://github.com/jackiectl/website-cloning-cc-skill.git
 mkdir -p ~/.claude/skills
-ln -s "$PWD/website-cloning-cc-skill/clone-any-website" ~/.claude/skills/clone-any-website
+ln -s "$PWD/website-cloning-cc-skill/website-cloning-cc" ~/.claude/skills/website-cloning-cc
 ```
 
 Restart Claude Code (or start a new session) after installation. Verify with the
-`/help` skills list or by asking Claude to run the `clone-any-website` skill.
+`/help` skills list or by asking Claude to run the `website-cloning-cc` skill.
 
 ## Use
 
 Invoke it explicitly:
 
 ```text
-Use the clone-any-website skill to rebuild https://example.com in a clean local project.
+Use the website-cloning-cc skill to rebuild https://example.com in a clean local project.
 ```
 
 It also triggers on requests such as:
@@ -63,7 +63,7 @@ clean source code instead of redistributing the original compiled application.
 ## Structure
 
 ```text
-clone-any-website/
+website-cloning-cc/
   SKILL.md
   references/
     bundle-analysis.md

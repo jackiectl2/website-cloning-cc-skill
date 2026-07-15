@@ -498,7 +498,7 @@ Compare stable UI and video regions deliberately:
 Run the bundled comparator when Pillow is available:
 
 ```bash
-python3 "${CODEX_HOME:-$HOME/.codex}/skills/clone-any-website/scripts/compare-screenshots.py" \
+python3 "$HOME/.claude/skills/website-cloning-cc/scripts/compare-screenshots.py" \
   docs/research/original-2.000.png \
   docs/research/clone-2.000.png \
   --mask docs/research/stable-ui-mask.png \
@@ -514,7 +514,7 @@ threshold for decoded video. After storing calibrated limits in the shell, run
 the same comparison as a gate:
 
 ```bash
-python3 "${CODEX_HOME:-$HOME/.codex}/skills/clone-any-website/scripts/compare-screenshots.py" \
+python3 "$HOME/.claude/skills/website-cloning-cc/scripts/compare-screenshots.py" \
   docs/research/original-2.000.png \
   docs/research/clone-2.000.png \
   --mask docs/research/stable-ui-mask.png \

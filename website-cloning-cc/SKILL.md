@@ -1,5 +1,5 @@
 ---
-name: clone-any-website
+name: website-cloning-cc
 description: Rebuild public websites as clean, maintainable local projects with disciplined visual, interaction, and media fidelity. Use when the user asks to clone, replicate, reproduce, port, or study a public website, including video-led landing pages, MP4/WebM or HLS experiences, scroll-scrubbed and masked video, Three.js/WebGL/R3F scenes, Pixi.js or Canvas2D toys, animated product pages, and phrases such as "复刻这个网站", "clone this site", "pixel-perfect copy", "rebuild this page", or "rewrite this screen toy". Covers stack triage, browser reconnaissance, licensed asset mirroring, deterministic media-state capture, client-bundle analysis as a behavioral reference, clean-room implementation, responsive QA, and deployment checks.
 ---
 
